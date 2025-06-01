@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dla Ani 💘</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dla Martynki 💘</title>
   <style>
     body {
       margin: 0;
@@ -101,9 +102,14 @@
 </head>
 <body>
 
+  <audio autoplay loop>
+    <source src="muzyka.mp3" type="audio/mpeg">
+    Twoja przeglądarka nie obsługuje odtwarzania muzyki.
+  </audio>
+
   <div class="hearts" id="hearts-container"></div>
 
-  <h1>Dla Ciebie, Aniu 💖</h1>
+  <h1>Dla Ciebie, Martynko 💖</h1>
   <button onclick="showLove()">Kliknij tutaj</button>
   <div id="message">
     Kocham Cię z całego serca! ❤️<br>
@@ -116,7 +122,6 @@
       document.getElementById('message').style.display = 'block';
     }
 
-    // Tworzenie lecących serduszek
     const heartsContainer = document.getElementById('hearts-container');
     setInterval(() => {
       const heart = document.createElement('div');
